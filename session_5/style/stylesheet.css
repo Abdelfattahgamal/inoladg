@@ -1,0 +1,15 @@
+body{
+ 
+    height: 200px;
+    
+}
+.container{
+    width: 1120px;
+    margin: auto;
+    overflow: auto;
+    text-align: center
+}
+.inner{
+    float: right;
+    overflow: hidden;
+}

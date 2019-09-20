@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2000vh;
+}
+header{
+    background: #959;
+    transition: 1s;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display:block;
+    background: #558;
+}
+div{
+    height: 600px;
+}
+#home{
+    background: red;
+}
+#about{
+    background: greenyellow;
+}
+#contact{
+    background:darkcyan;
+}
+.top{
+    display: none;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 10;
+    bottom: 10px;
+    background: lightcoral;
+}
+.samll{
+    background:blue;
+    height: 50px;
+}

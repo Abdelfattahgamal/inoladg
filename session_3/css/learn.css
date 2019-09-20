@@ -1,0 +1,70 @@
+/* 
+selector{
+
+}
+*/
+
+
+hi{
+    color: black
+}
+
+/*
+ background-:color
+ background-:image
+ background-:position
+ background-:attachment
+ background-:rep
+*/
+
+
+
+
+body{
+    height: 2000px;
+/*
+    background-color:#f50;
+    background-image:url(../imedg/IMG_6948.PNG);
+    background-repeat:no-repeat; 
+    background-attachment: fixed;
+    background-position: center bottom;
+*/
+
+/*علشان اخلي الكلام بتاع الموقه من اي جهه*/
+}
+html{
+    direction: ltr
+}
+ div{
+    color: aquamarine;
+}
+
+/* Grouping*/
+.x , .y   { background: red;
+    color: black;
+}
+/* Dimensin*/
+.y{
+    min-width: 150px;
+    max-width: 500px;
+    width: 520;
+    background-color: chartreuse;
+    color: antiquewhite;
+}
+.
+/* Nesing */
+h2 span{
+    background-color: brown;
+    color: cornflowerblue;
+}
+
+.demo{
+    width: 201px;
+    height: 200px;
+    margin: 40px;
+    background-color: darkcyan;
+    color: darkgreen;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px; 15px;
+}

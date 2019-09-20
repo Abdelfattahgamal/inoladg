@@ -1,0 +1,20 @@
+.Red{
+    width: 450px;
+    height: 401px;
+    background-color: aqua;
+    position: relative;
+    margin: auto;
+    bottom: 0px;
+}
+.green{
+    width: 280px;
+    height: 250px;
+    background-color: brown;
+}
+.orang{
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 236px;
+    height: 150;
+    margin: auto;
+}

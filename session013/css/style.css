@@ -1,0 +1,20 @@
+body{
+    height: 2000px;
+}
+* {
+    margin: 0
+}
+header{
+    background: #333;
+    height:100px;
+    padding:10px
+}
+header ul{
+    text-align: center;
+}
+header ul li{
+    background: #f50;
+    color: #fff;
+    padding: 10px;
+    display: inline;
+}

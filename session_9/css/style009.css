@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fles-container{
+    width: 600px;
+    height: 600px;
+    background: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+.fles-container .item:first-child{
+    background: red;
+    order:2;
+}
+.fles-container .item:nth-child(2) {
+    background: blue;
+    order: 1;
+}
+.fles-container .item:last-child {
+    background: yellowgreen;
+    order: 3;
+}
+.select p:nth-of-type(5){
+    color: red;
+}
+.media{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.media-item{
+    width: 30%;
+}
+.media-item img{
+    width: 70%;
+}
+/* mopile */
+:root{
+    --maincolor: blue;
+    --subcolor: green;
+}
+h2{
+    color: var(--maincolor)
+}
+p{
+    color: var(--subcolor)
+}

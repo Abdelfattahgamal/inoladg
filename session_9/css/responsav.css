@@ -1,0 +1,29 @@
+@media(max-width:575px){
+    .media{
+        flex-direction: column;
+    }
+    .media-item{
+        width: 100%;
+    }
+
+}
+/* taplet */
+@media(min-width:576px) and (max-width:764px){
+    .media{
+        flex-wrap: wrap;
+    }
+    .media-item{
+        width: 50%;
+    }
+}
+/* madem scren */
+@media(min-width:796px) and (max-width:991px){
+    .media-item{
+        box-shadow: 2px  2px 3px brown;
+        width: 100%;
+    }
+}
+/* pc */
+@media(min-width:992px){
+
+}

@@ -1,0 +1,130 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.background{
+    background-image: url(../images/460729-nature-stars-house-Milky_Way.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+.Portfilio{
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 38%;
+}
+.Portfilio h2{
+    font-size: 38px;
+}
+.Portfilio p{
+    font-size: 20px;
+}
+.header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    padding-top: 5%;
+}
+.header p span{
+    padding: 5px 10px 15px 20px;
+    font-size: 20px;
+    color: brown;
+}
+.header h3{
+    color: #fff;
+    font-size: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.iteam{
+    overflow: hidden;
+}
+
+.iteam .img{
+    width: 25%;
+    float: left;
+    padding-top:20px; 
+    
+}
+.iteam .img span {
+   transition: 0.5s;
+   display: block;
+   width: 100px;
+   height:100px;
+   background: #fff;
+   margin: auto;
+   border-radius: 50%;
+
+}
+.iteam .img span i{
+    transition: 0.5s;
+    color: #1d809f;
+    line-height: 100px;
+}
+.iteam .img:hover span{
+    background:#ecb807;
+}
+.iteam .img:hover{
+    color: #fff;
+}
+.navpar{
+    width: 80%;
+    margin: auto;
+}
+.sliader_1{
+    background-image: url(../images/images\ \(3\).jpg);
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    transition: 0.5s;
+
+}
+.sliader_1 .contnet{
+    position: absolute ;
+    bottom: 50px;
+    left: 50px;
+    color: #fff;
+}
+.sliader_1:hover{
+    transform: scale(0.8);
+}
+.sliader_2{
+    background-image: url(../images/images\ \(4\).jpg);
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    text-align: center;
+
+}
+.sliader_3{
+    background-image: url(../images/images\ \(6\).jpg);
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    text-align: center;
+
+}
+.sliader_4{
+    background-image: url(../images/images\ \(8\).jpg);
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    text-align: center;
+
+}

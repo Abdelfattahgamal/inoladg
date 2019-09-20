@@ -1,0 +1,84 @@
+.animate{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    animation: changecolor 2s infinite alternate
+}
+@keyframes changecolor {
+    from{
+        background:blanchedalmond
+    }
+    to{
+        background: rebeccapurple;
+    }
+}
+.change_animate{
+    width: 150px;
+    height: 150px;
+    background: goldenrod;
+    animation: animate 2s alternate infinite;
+    position: relative;
+}
+@keyframes animate{
+    0%{
+        background: #ffffff;
+        top:0px;
+        left: 0px;
+    }
+    25%{
+        background: #343434;
+        top: 0px;
+        left:100px;
+    }
+    50%{
+        top:100px;
+        left:100px;
+        background: #898989;
+    }
+    75%{
+        left:0;
+        top:100px;
+        background: #777777;
+    }
+    100%{
+        left:0;
+        top:100px;
+        background: #555555;
+    }
+
+    
+
+}
+.info{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.info .img{
+    width: 25%;
+    height: 250px;
+    float: left;
+    background: red;
+    padding: 0px;
+    margin_r
+    
+}
+.info .img span{
+    
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    border: 2px solid forestgreen;
+    background: white;
+    
+}
+
+.info span i {
+    line-height: 70px
+}
+
